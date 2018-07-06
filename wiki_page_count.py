@@ -61,7 +61,7 @@ pageDay=pageDay.rjust(2, '0')
 pageHour=pageHour.rjust(2, '0')
 
 #local path for logging
-localBase=sys.path[0]
+localBase=sys.path[0]+'/'
 
 #source data url
 urlPrefix='https://dumps.wikimedia.org/other/pagecounts-raw/'
