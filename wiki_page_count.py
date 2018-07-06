@@ -18,7 +18,7 @@ def usage(errMsg):
 	print 'Syntax:'
 	print '         python precess_wiki_page_count.py date hour'
 	print 'where: date=yyyy-mm-dd and should be a valid date and hour=HH24 between 0 and 23'
-	print 'e.g python precess_wiki_page_count.py 2012-01-01 00'
+	print 'e.g python wiki_page_count.py 2012-01-01 00'
 	sys.exit()
 
 ###########################################################################
