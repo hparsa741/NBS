@@ -35,7 +35,7 @@ def mkdir_p(path):
 			usage('Failed to create directory '+path+'!\n'+e)
 
 ###########################################################################
-#						 END OF FUNCTIONS 
+#		        END OF FUNCTIONS 
 ###########################################################################
 warnings.simplefilter(action='ignore', category=FutureWarning)
 args=sys.argv
@@ -44,7 +44,7 @@ args=sys.argv
 if len(args)==3:
 	pageDate=args[1]
 	pageHour=args[2]
-else: usage('Incorrect number of argiments.')
+else: usage('Incorrect number of arguments.')
 
 #extract and validate values
 try:
